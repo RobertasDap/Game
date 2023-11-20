@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxgame.controllers.gameWindowController">
+   <children>
+      <Pane fx:id="gamePane" focusTraversable="true" layoutX="6.0" layoutY="70.0" onKeyPressed="#onKeyPressed" onKeyReleased="#onKeyReleased" prefHeight="564.0" prefWidth="788.0" style="-fx-background-color: #1c5528;" />
+      <Label fx:id="scoreCount" layoutX="14.0" layoutY="14.0" prefHeight="48.0" prefWidth="285.0" text="Score: 0">
+         <font>
+            <Font name="Arial Bold" size="38.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
